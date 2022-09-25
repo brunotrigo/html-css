@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio 7</title>
+    <h1>Imagem flexivel</h1>
+    <p>a imagem ira diminuir de acordo com o tamanho da janela.</p>
+    
+</head>
+<body>
+    <picture>
+        <source media="(max-width: 720px )" srcset="paisagem-p.png">
+        
+        <source media="(max-width: 1000px)" srcset="paisagem-m.png" type="image/png">
+        
+        <img src="paisagem-g.png" alt=" a imagem flexivel fuciona">
+    </picture>
+    
+</body>
+</html>
