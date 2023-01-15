@@ -40,7 +40,7 @@
         margin: 20px 0px 20px 0px;
         text-indent: 40px;
         font-size: 1.1em;
-        line-height: 2em;
+        line-height: 1.7em;
         
         
         
@@ -129,7 +129,7 @@ a.externo::after{
         color: var(--cor3);
         position: static;
         transition: .4s;
-        font-size: 16pt;
+        
         border-radius: 5px;
         text-shadow: 1px 1px 2px  rgba(0, 0, 0, 0.397);
         

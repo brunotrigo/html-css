@@ -9,26 +9,43 @@
         @font-face {
             font-family:'anthony' ;
             src: url(fontes/Anthony\ Hunter.otf) format('opentype'), 
-            url(fontes/Anthony\ Hunter.ttf) format("truetype");
+            url(fontes/Anthony\Hunter.ttf) format("truetype");
         }
+        /*
+            " ../ " fonte externa 
+        */
 
+        /*
+        tipos de format
+            - opentype = (otf)
+            - truetype = (ttf)
+            - embedded-opentype
+            - truetype-aat (apple advanced Typography)
+            - svg            
+        */
+        *{
+            margin: 0%;
+        }
         body{
             font-family: 'anthony' ,Arial, Helvetica, sans-serif;
             text-align: justify;
         }
-        h1{
+        h1,h2{
             font-family: 'anthony' Georgia, 'Times New Roman', Times, serif;
             font-size: 3em;
             color: brown;
+            font-weight: normal;
+        
         }
         p{
             font-size: 1.5em;
+            
         }
     </style>
     <h1>titulo 1</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati corporis incidunt quasi iste consectetur, aliquam excepturi dicta itaque ut consequatur quas, exercitationem at? Est quos similique modi delectus aliquam consequatur?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati corporis incidunt quasi iste consectetur, <br> aliquam excepturi dicta itaque ut consequatur quas, exercitationem at? Est quos similique modi delectus aliquam consequatur?</p>
     <h2>subtitulo</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus consequuntur porro dolore praesentium ut optio sapiente dolores architecto vitae molestias. Facere reprehenderit quis perferendis optio laboriosam molestiae, blanditiis perspiciatis ipsam.</p>
+    <p style="display: inline-block;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus consequuntur porro dolore praesentium ut optio sapiente dolores architecto vitae molestias. <br> Facere reprehenderit quis perferendis optio laboriosam molestiae, blanditiis perspiciatis ipsam. <a style="display: block;" href="#">link blablabla</a></p>
 </head>
 <body>
     

@@ -31,3 +31,11 @@ p{
     text-align: justify;
     color: #163c5c;
 }
+a {
+    text-decoration: none;
+}
+#facebook:hover{
+    text-decoration: underline;
+    color: rgb(60, 255, 0);
+    
+}
