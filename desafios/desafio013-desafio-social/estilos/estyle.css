@@ -1,11 +1,33 @@
 @charset "T=UTF-8";
+*{
+    margin: 0%;
+    padding: 0%;
+}
 body{
     background-color: darkgrey;
-    background-image: url(/desafios/desafio013-desafio-social/imagens/imagens/fundo-madeira.jpg);ck
+    background-image: url(/desafios/desafio013-desafio-social/imagens/imagens/fundo-madeira.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  
 }
 iframe{
     display: block;
     margin: auto;
-    position: absolute;
-    left: 50vw;
+    background-image: url(/desafios/desafio013-desafio-social/imagens/imagens/tela-home.jpg);
+    background-size: cover;
+    background-position: top left;
+
+    
+}*/
+
+main{
+    
+    background-size: 250px 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+img{
+    display: block;
+    margin: auto;
 }
