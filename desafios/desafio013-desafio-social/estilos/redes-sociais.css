@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        ::-webkit-scrollbar{
+            width: 0px;
+            height: 0px;
+        }
+
+    img{
+        width: 100vw;
+    }
+    a{
+        display: block;
+        width: auto;
+        padding: 20px;
+        text-align: center;
+        background-color: darkred;
+        color: white;
+        font-weight: bolder;
+        text-decoration: none;
+    }
+    h1{
+        display: block;
+        font-size: medium;
+
+    }
+    a:hover{
+        background-color: rgb(172, 3, 3);
+    }
+    h1:hover{
+        transform: scale(1.2,1.2);
+        
+    }
+    h1:active{
+        transform: scale(1.1,1.1);
+        
+    }
+    
